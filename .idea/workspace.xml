@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9cbc7af-3016-4195-9f90-308f6fe5af26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EjerciciosConexionTCP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio1/ClienteTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio1/ServidorTCP.java" afterDir="false" />
+    <list default="true" id="c9cbc7af-3016-4195-9f90-308f6fe5af26" name="Changes" comment="Ejercicio 1">
+      <change afterPath="$PROJECT_DIR$/src/conexionUDP/ClienteUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conexionUDP/ServidorUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio1UDP/ClienteUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio1UDP/ServidorUDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio2/ClienteTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio2/ServidorTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcpficheros/ClienteTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcpficheros/ServidorTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcpficheros/fichero.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,21 +43,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jmferreira/Desktop/PSPRO/EjerciciosConexionTCP/src/ejercicio1"
+    "last_opened_file_path": "C:/Users/jmferreira/Desktop/PSPRO/EjerciciosConexionTCP/src/ejercicio1UDP"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jmferreira\Desktop\PSPRO\EjerciciosConexionTCP\src\ejercicio1UDP" />
+      <recent name="C:\Users\jmferreira\Desktop\PSPRO\EjerciciosConexionTCP\src\tcpficheros" />
+      <recent name="C:\Users\jmferreira\Desktop\PSPRO\EjerciciosConexionTCP\src\ejercicio2" />
       <recent name="C:\Users\jmferreira\Desktop\PSPRO\EjerciciosConexionTCP\src\ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClienteTCP">
-    <configuration name="ClienteTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio1.ClienteTCP" />
+  <component name="RunManager" selected="Application.ejercicio1UDP.ClienteUDP">
+    <configuration name="ClienteUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conexionUDP.ClienteUDP" />
       <module name="EjerciciosConexionTCP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="PATTERN" value="conexionUDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +68,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServidorTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio1.ServidorTCP" />
+    <configuration name="ServidorUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conexionUDP.ServidorUDP" />
       <module name="EjerciciosConexionTCP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="PATTERN" value="conexionUDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ejercicio1UDP.ClienteUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio1UDP.ClienteUDP" />
+      <module name="EjerciciosConexionTCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1UDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ejercicio1UDP.ServidorUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio1UDP.ServidorUDP" />
+      <module name="EjerciciosConexionTCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1UDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tcpficheros.ClienteTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcpficheros.ClienteTCP" />
+      <module name="EjerciciosConexionTCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcpficheros.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClienteTCP" />
-        <item itemvalue="Application.ServidorTCP" />
+        <item itemvalue="Application.ejercicio1UDP.ClienteUDP" />
+        <item itemvalue="Application.ejercicio1UDP.ServidorUDP" />
+        <item itemvalue="Application.ClienteUDP" />
+        <item itemvalue="Application.ServidorUDP" />
+        <item itemvalue="Application.tcpficheros.ClienteTCP" />
       </list>
     </recent_temporary>
   </component>
@@ -86,8 +138,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673958842177</updated>
-      <workItem from="1673958843680" duration="2556000" />
+      <workItem from="1673958843680" duration="3525000" />
+      <workItem from="1674120733252" duration="1260000" />
+      <workItem from="1674204930089" duration="61000" />
+      <workItem from="1674725862183" duration="3706000" />
+      <workItem from="1674730845327" duration="1084000" />
+      <workItem from="1674804954084" duration="161000" />
+      <workItem from="1675166422455" duration="5755000" />
     </task>
+    <task id="LOCAL-00001" summary="Ejercicio 1">
+      <created>1673961435637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673961435637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +169,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ejercicio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 1" />
   </component>
 </project>
