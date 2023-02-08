@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9cbc7af-3016-4195-9f90-308f6fe5af26" name="Changes" comment="Ejercicio 1">
-      <change afterPath="$PROJECT_DIR$/src/conexionUDP/ClienteUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conexionUDP/ServidorUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio1UDP/ClienteUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio1UDP/ServidorUDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio2/ClienteTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio2/ServidorTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tcpficheros/ClienteTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tcpficheros/ServidorTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tcpficheros/fichero.txt" afterDir="false" />
+    <list default="true" id="c9cbc7af-3016-4195-9f90-308f6fe5af26" name="Changes" comment="Ejercicio 1 UDP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jmferreira/Desktop/PSPRO/EjerciciosConexionTCP/src/ejercicio1UDP"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jmferreira/Desktop/PSPRO/EjerciciosConexionTCP/src/ejercicio1UDP&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jmferreira\Desktop\PSPRO\EjerciciosConexionTCP\src\ejercicio1UDP" />
@@ -144,7 +135,8 @@
       <workItem from="1674725862183" duration="3706000" />
       <workItem from="1674730845327" duration="1084000" />
       <workItem from="1674804954084" duration="161000" />
-      <workItem from="1675166422455" duration="5755000" />
+      <workItem from="1675166422455" duration="5933000" />
+      <workItem from="1675408329987" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio 1">
       <created>1673961435637</created>
@@ -153,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673961435637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ejercicio 1 UDP">
+      <created>1675172242000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675172242000</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejercicio 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 1" />
+    <MESSAGE value="Ejercicio 1 UDP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 1 UDP" />
   </component>
 </project>
