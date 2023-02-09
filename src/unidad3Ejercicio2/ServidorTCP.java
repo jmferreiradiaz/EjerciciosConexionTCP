@@ -30,6 +30,7 @@ public class ServidorTCP {
             System.out.println("(Servidor): Mensaje recibido del cliente: ");
             direccion = br.readLine().trim();
             System.out.println(direccion);
+            //Devuelve la ip si la direccion está en el fichero
             mensaje = leerFichero(".\\src\\unidad3Ejercicio2\\direccionesTXT", direccion);
 
 
@@ -58,8 +59,10 @@ public class ServidorTCP {
         }
     }
     /***
-     * Lee el fichero a partir de la ruta pasada como parámetro
+     * Lee el fichero a partir de la ruta pasada como parámetro y si la direccion web es la misma
+     * que la escrita del fichero devuelve la ip. Si no está devuelve un mensaje de no está registrada
      * @param rutaFichero
+     * @param direccion
      * @return
      * @throws IOException
      */

@@ -36,12 +36,6 @@ public class ClienteTCP {
             BufferedReader br = new BufferedReader(isr);
             System.out.println("(Cliente): Mensaje recibido del servidor: "+ br.readLine());
 
-            /*
-            System.out.println("(Cliente): Envia mensaje al servidor con 14");
-            os.write(14);
-
-            System.out.println("(Cliente): Lectura del mensaje del servidor");
-            System.out.println("Mensaje recibido por el servidor: " + is.read());*/
 
             //4 - Cerrar flujos de lectura y escritura
             br.close();
